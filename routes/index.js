@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const INBOX_URL = 'http://localhost:5001/API/notifications/';
+const INBOX_URL = 'https://tonda.solid.community/inbox/';
 const LINK_VALUE = '<' + INBOX_URL + '>; rel="http://www.w3.org/ns/ldp#inbox"';
 
 /* Discovery options (from https://www.w3.org/TR/ldn/#discovery):
