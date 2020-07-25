@@ -41,3 +41,6 @@ Content-Type: application/ld+json; charset=utf-8
     "inbox": "https://tonda.solid.community/inbox/"
 }
 ```
+
+### Swagger documentation
+https://app.swaggerhub.com/apis-docs/WhyINeedToFillUsername/ldn-target/0.1
