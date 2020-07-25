@@ -1,0 +1,35 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "LDN Target discovery showcase",
+    "description" : "Discovery options (from https://www.w3.org/TR/ldn/#discovery):\n\n1) LINK\n\n\t\ta) head > Link: <http://example.org/inbox/>; rel=\"http://www.w3.org/ns/ldp#inbox\"\n\t\tb) get  > Link: <http://example.org/inbox/>; rel=\"http://www.w3.org/ns/ldp#inbox\"\n\n\n2) RDF\n\n\t\ta) JSON with relation of type http://www.w3.org/ns/ldp#inbox\n\t\tb) HTML <a> with rel=\"http://www.w3.org/ns/ldp#inbox\"\n\t\tc) HTML <link> with rel=\"http://www.w3.org/ns/ldp#inbox\"\n\t\td) HTML <section> with property=\"http://www.w3.org/ns/ldp#inbox\"\n\t\te) text/turtle with <http://www.w3.org/ns/ldp#inbox> relation\n\t\t\nDetails at:  ",
+    "version" : "0.1"
+  },
+  "externalDocs" : {
+    "description" : "https://github.com/WhyINeedToFillUsername/ldn-target-showcase",
+    "url" : "https://github.com/WhyINeedToFillUsername/ldn-target-showcase"
+  },
+  "servers" : [ {
+    "url" : "https://ldn-target-showcase.herokuapp.com"
+  } ],
+  "paths" : {
+    "/" : {
+      "get" : {
+        "summary" : "GET returns Link header",
+        "description" : "HTTP GET returns Link header with ldp:inbox IRI.",
+        "responses" : {
+          "default" : {
+            "description" : "Auto generated using Swagger Inspector"
+          }
+        },
+        "servers" : [ {
+          "url" : "https://ldn-target-showcase.herokuapp.com"
+        } ]
+      },
+      "servers" : [ {
+        "url" : "https://ldn-target-showcase.herokuapp.com"
+      } ]
+    }
+  },
+  "components" : { }
+}
