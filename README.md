@@ -1,5 +1,5 @@
 # ldn-target-showcase
-This project is a simple [Linked Data Notification](https://www.w3.org/TR/ldn/) target implementation to test and showcase all options:
+This project is a simple [Linked Data Notification](https://www.w3.org/TR/ldn/) target implementation to test and showcase all discovery options:
 
 <img src="ldn-overview.png" alt="Overview of Linked Data Notifications" width=400 />
 
@@ -9,7 +9,7 @@ It is a [node.js](https://nodejs.org/) ([express](https://expressjs.com/)) app.
 You need to install [node.js](https://nodejs.org/) (with included [npm](https://www.npmjs.com/get-npm)).
 
 ## Install
-Run the following command in the **module's root folder**:
+Run the following command in the **root folder**:
 ```bat
 npm install
 ```
